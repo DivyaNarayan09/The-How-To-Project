@@ -269,3 +269,128 @@ p{
   margin-bottom: 10px;
 }
 
+/*********************MY ACTIVITY ********************/
+.search-bar2{
+  position:relative;
+  display: inline-block;
+  width: 550px;
+  height: 40px;
+  border-radius: 25px;
+  background:linear-gradient(#C69AF6,rgb(21, 2, 56));
+  left: 450px;
+  top: 250px;
+}
+
+.search-bar2:hover{
+  box-shadow: 5px 5px 30px #c89ef5;
+}
+.search-icon2{
+  position: relative;
+  margin-top: 11px;
+  margin-left: 20px;
+  color: white;
+}
+
+.BCard{
+  margin:20px;
+}
+/***********************FOOTER-blogPage*******************/
+.footer{
+  position: relative;
+  margin-top:0px;
+  margin-left: 530px;
+  width:500px
+}
+.footer-icon{
+ margin: 30px;
+ color: white;
+}
+.right-bar{
+  position: absolute;
+  margin-top: 300px;
+  width:220px;
+}
+.left-bar{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 1100px;
+  color: white;
+  width: 200px;
+}
+.container-content{
+  width:700px;
+  margin:20px 380px;
+  color:white;
+}
+.container-head{
+  position: relative;
+  margin-left:  450px ;
+  margin-top: 0px;
+  width: 550px;
+}
+.container-head p{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.user-icon{
+  color: white;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+.arrow{
+  color: white;
+  margin-top: 5px;
+  margin-right: 17px;
+}
+
+.img3{
+  position:relative;
+  margin:19px 340px ;
+  border-radius: 20px;
+  height:450px;
+  width:750px
+}
+.search-container{
+  width:900px;
+  margin-top: 160px;
+  margin-left: 300px;
+}
+.papercard{
+  display: inline-block;
+ }
+ .blogchips{
+  display:flex;
+  flex-wrap: wrap;
+  list-style: none;
+ }
+ .header-search{
+  position: relative;
+  left:500px;
+  width:90px;
+  color: #C69AF6;
+ }
+ .search-bar3{
+  position:relative;
+  display: inline-block;
+  width: 550px;
+  height: 40px;
+  border-radius: 25px;
+  background:linear-gradient(#C69AF6,rgb(21, 2, 56));
+  left: 450px;
+  top: 100px;
+}
+
+.search-bar3:hover{
+  box-shadow: 5px 5px 30px #c89ef5;
+}
+
+.search-container a{
+  color:rgb(48, 206, 206);
+  margin-left:420px;
+  font-size: larger;
+  text-decoration: none;
+}

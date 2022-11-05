@@ -126,6 +126,16 @@ function NavBar() {
               </ListItemButton>
             </ListItem>
           </Link>
+          <Link
+            to="/SearchPage"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <ListItem key="Search Topics" disablePadding>
+              <ListItemButton>
+                <ListItemText primary="Search Topics" />
+              </ListItemButton>
+            </ListItem>
+          </Link>
         </List>
 
         <Divider />

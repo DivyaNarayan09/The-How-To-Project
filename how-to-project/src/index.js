@@ -14,7 +14,9 @@ function Main() {
           <Route path="/" element={<Home />} />
           <Route path="/feed" element={<Feeds />} />
           <Route path="/Trending" element={<Feeds />} />
-          <Route path="/My-Activity" element={"3"} />
+          <Route path="/My-Activity" element={<MyActivity/>} />
+          <Route path="/BlogPost" element={<BlogPost />} />
+          <Route path="/SearchPage" element={<SearchPage/>} />
           <Route path="/Bookmarks" element={"4"} />
         </Routes>
       </BrowserRouter>
