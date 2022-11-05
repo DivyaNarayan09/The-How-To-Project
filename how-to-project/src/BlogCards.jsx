@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 // import { makeStyles } from "@mui/material";
 
 // const useStyles = makeStyles((theme) => ({
@@ -28,9 +29,14 @@ export default function BlogCard(props) {
       >
         <CardMedia component="img" height="140" image={props.img} alt="media" />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {props.heading}
-          </Typography>
+          <Link
+            to="/BlogPost"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography gutterBottom variant="h5" component="div">
+              {props.heading}
+            </Typography>
+          </Link>
           <Typography variant="body2" color="white">
             {props.desc}
           </Typography>
